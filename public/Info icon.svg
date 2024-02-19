@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="27px" height="27px" viewbox="0 0 27 27" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L27 0L27 27L0 27L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Info-icon">
+    <path d="M0 0L27 0L27 27L0 27L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <path d="M12.42 0C5.56038 0 0 5.56038 0 12.42C0 19.2796 5.56038 24.84 12.42 24.84C19.2796 24.84 24.84 19.2796 24.84 12.42C24.84 5.56038 19.2796 0 12.42 0L12.42 0ZM12.42 4.86C13.3148 4.86 14.04 5.58522 14.04 6.48C14.04 7.37478 13.3148 8.1 12.42 8.1C11.5252 8.1 10.8 7.37478 10.8 6.48C10.8 5.58522 11.5252 4.86 12.42 4.86L12.42 4.86ZM14.58 19.44L13.5 19.44L11.34 19.44L10.26 19.44L10.26 18.36L11.34 18.36L11.34 11.34L10.26 11.34L10.26 10.26L11.34 10.26L13.5 10.26L13.5 11.34L13.5 18.36L14.58 18.36L14.58 19.44L14.58 19.44Z" transform="translate(1.0800018 1.0800018)" id="Shape" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>

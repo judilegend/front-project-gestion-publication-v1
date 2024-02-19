@@ -1,0 +1,348 @@
+/* google font */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap'); */
+
+/* layout */
+
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+body {
+  background: #E88BFF;
+  margin: 0;
+  position: relative;
+  font-family: "Poppins";
+  /* padding: 0.2rem 6rem; */
+  overflow: hidden;
+}
+.hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem 6rem;
+
+  /* position: relative; */
+}
+.contain-bg{
+  position: absolute;
+  background-image: url("/New shape.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 75%;
+  height:100vh;
+  z-index: -2;
+}
+.contain-text h1{
+  color: #fff;
+  font-size: 57px;
+  width: 500px;
+}
+.contain-text{
+  width: 65%;
+}
+.contain-text h1 span{
+  color: #E88BFF;
+}
+.contain-image img{
+  width:450px;
+}
+.contain-image {
+  width:45%;
+}
+.vector{
+  position: absolute;
+  left: 50%;
+  transform: rotate(-130deg);
+  top: 22rem;
+  z-index: -3;
+  overflow: hidden;
+}
+.eclipse{
+  position: absolute;
+  left: 63px;
+  filter: blur(130px);
+  top: 455px;
+}
+.eclipse1{
+  position: absolute;
+  filter: blur(50px);
+}
+.vector1{
+  position: absolute;
+  width: 50px;
+  left: 6rem;
+  top: 6rem;
+}
+.round{
+  position: absolute;
+  width: 120px;
+  /* bottom: 400px; */
+  opacity: 0.8;
+
+  transform: rotate(-38deg);
+  z-index: -4;
+  top: 50vh;
+  left: 84%;
+}
+.waves{
+  position: absolute;
+  width: 40px;
+  left: 56%;
+  top: 30vh;
+  z-index: -5;
+
+}
+.fill,.fill-form{
+  position: absolute;
+  opacity: 0.95;
+  width: 100px;
+}
+.fill{
+  left: 94%;
+  top: 84vh;
+}
+.fill-form{
+  left: 60%;
+  top: 63vh;
+  z-index: -1;
+}
+#rectangle {
+  max-width: 485px;
+  height: 78px;
+  display: flex;
+  justify-content: space-evenly;
+  /* gap: 60px; */
+  align-items: center;
+  border-radius: 110px;
+  background: #ffffff;
+}
+.join{
+  font-family: "Courier New";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+}
+#rectangle2 {
+  width: 180px;
+  height: 40px;
+  justify-items: end;
+  border: none;
+  border-radius: 110px;
+  background: linear-gradient(135deg, #593737, #57335F, #2A0D30);
+  width: 187px;
+  height: 49px;
+}
+#rectangle2 a{
+  color: #ffffff;
+  font-family: "UbuntuMono-Regular";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+}
+
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Segoe UI";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: right;
+}
+/* .sign-button{
+  background: #57335F;
+  color: #fff;
+  padding: 6px 9px;
+  border-radius: 30px;
+
+} */
+.pages{
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* homepage */
+.home {
+  display: grid;
+  grid-template-columns:1fr 3fr 1fr ;  
+  background: #aba3af;
+  /* gap: 100px; */
+}
+.left-container{
+  /* width: 300px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 904px;
+  margin: 0;
+  padding: 0;
+  background: #160a19;
+  /* position: absolute; */
+  /* z-index: -1; */
+}
+.left-container h1{
+  text-align: center;
+  color: #ffefef;
+  
+}
+.left-container div h2{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  /* text-align: center; */
+  color: rgb(233, 230, 226);
+  font-size: 18px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+
+}
+.left-container div h2 img{
+  opacity: 0.7;
+  width: 20px;
+  height: 20px;
+}
+.centre-container{
+  margin:0 2rem;
+  /* background: #ca1f1f; */
+
+}
+.right-container{
+  background: #160a19;
+  /* width: 300px; */
+  height: 904px;
+  /* padding-right:48px ; */
+}
+/* .left{
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  background-image: url("/left-container.svg");
+}
+.right{
+  width: 300px;
+  height: 100%;
+  left: 75%;
+  position: absolute;
+  background-image: url("/left-container.svg");
+} */
+/* .centre-container{
+  position: relative;
+} */
+.post-details {
+  background: #fff;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+.post-details h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: var(--primary);
+}
+.post-details p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #555;
+}
+.post-details span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+}
+
+/* new post form */
+label, input {
+  display: block;
+}
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form button {
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+input.error {
+  border: 1px solid var(--error);
+}
+.registre button {
+  background: transparent;
+  border: none;
+}
+#signup-btn{
+  /* background: #000; */
+  border: 2px solid #500c5f;
+  border-radius: 18px;
+  padding: 1px 7px;
+}
+/******************************************centre container********************************/
+.navbar-container{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 12px 7px;
+  border-radius: 40px;
+  margin-top: 1rem;
+  background: #ebe6e6;
+
+}
+.navbar-container div{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbar-container div a{
+  color: #2A0D30;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+.navbar-container div img{
+  width: 24px;
+  height: 24px;
+}
+/****publication********/
+.pub{
+  margin-top: 100px;
+}
+.publication{
+  margin: auto;
+  width: 80%;
+  height: 50vh;
+  background: #000;
+}
